@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: agency-service
+    name: role-service
     env: docker
     javaVersion: "17"
     buildCommand: "mvn clean install"
